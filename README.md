@@ -9,6 +9,8 @@ abuse.ch is providing community driven threat intelligence on cyber threats. It 
 ## My Projects
 
 - I've created two scripts which will download malware hashes and store them in csv file and second script same functions but latest C2 servers, I hope that this could potentially help you to use them for example in SIEM console to catch or monitor systems for any possible threat.
+- [x] Malware Bazaar
+- [x] Feodo Tracker
 
 ## Future Projects
 
