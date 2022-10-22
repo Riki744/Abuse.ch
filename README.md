@@ -8,13 +8,14 @@ abuse.ch is providing community driven threat intelligence on cyber threats. It 
 
 ## My Projects
 
-- I've created two scripts which will download malware hashes and store them in csv file and second script same functions but latest C2 servers, I hope that this could potentially help you to use them for example in SIEM console to catch or monitor systems for any possible threat.
+- I've created three scripts. Malware Bazaar script will download malware hashes and store them in csv file. Feodo Tracker  script same functions but latest C2 servers IP. URL Haus script is going to collect latest active domain names for malware distributed sites and store in new .csv file format. Hope that this could potentially help you to use them for example in SIEM console to catch or monitor systems for any possible threat.
+
 - [x] Malware Bazaar
 - [x] Feodo Tracker
+- [x] URL Haus
 
 ## Future Projects
 
 - [ ] SSL Blacklist
-- [ ] URL Haus
 - [ ] Threat Fox
 - [ ] Yara IFY
