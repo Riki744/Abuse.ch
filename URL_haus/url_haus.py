@@ -59,7 +59,7 @@ file_check = os.path.exists(f'{csv_file}')
 if file_check == False:
 	#Writing DNS list to csv
 	print(f"[*] Writing Malware DNS to {csv_file}")
-	with open(f'{csv_file}', 'w', ) as myfile:
+	with open(f'{csv_file}', 'w') as myfile:
 	    wr = csv.writer(myfile, quoting=csv.QUOTE_ALL)
 	    for name in DNS:
 	        wr.writerow([name])
